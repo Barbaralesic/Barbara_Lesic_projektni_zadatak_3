@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	color: cadetblue;
+	font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 20px;
+	line-height: 22px
+}
+h1,h2{
+	color: cadetblue;
+}
+h1{
+	font-family: BarbaraLesic
+}
+@font-face {
+    font-family: BarbaraLesic;
+    src: url("BarbaraLesic.ttf");  
+	}		
+
+body{
+	background-color: #0A525A
+}
+.text-box {
+    border: 2px solid #114664;
+    padding: 40px; 
+    width: auto; 
+    margin: auto; 
+    font-size: 50px; 
+    text-align: center;
+}
+ul{
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+li{
+	display: inline;
+	background-color: darkgray;
+	padding: 20px;
+	border: 2px;
+}
+li:active {background-color: aqua;}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    margin: 10px 0;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 24px;
+}
+
+ *{box-sizing: border-box;}
+
+.paragraf_1 {background-color: darkgray}
